@@ -1,0 +1,164 @@
+body{
+	background-image:url('my-back.jpg');
+}
+/*.background{
+	
+	position:absolute;
+	width:800px;
+	height:600px;
+	background-color:black;
+}*/
+.container{
+	position:absolute;
+	animation:bounce 2s 12s infinite;
+}
+.main{
+	position:absolute;
+	color:white;
+	
+	font-size:55px;
+	animation:anim 2.9s forwards;
+}
+@keyframes anim{
+	0%{transform:translate(1450px,140px)}
+	20%{transform:translate(530px,240px) scale(2)}
+	30%{transform:translate(530px,350px) scale(2)}
+	45%{transform:translate(530px,260px) scale(2)}
+
+	60%{transform:translate(530px,350px) scale(2)}
+	75%{transform:translate(530px,290px) scale(2)}
+
+	85%{transform:translate(530px,350px) scale(2)}
+	95%{transform:translate(530px,320px) scale(2)}
+	100%{transform:translate(530px,330px) scale(2)}
+	
+}
+.main1{
+	position:absolute;
+	color:white;
+	
+	font-size:55px;
+	animation:anim1 3.1s forwards;
+}
+@keyframes anim1{
+	0%{transform:translate(1080px,-100px)}
+	20%{transform:translate(580px,250px)}
+	30%{transform:translate(580px,350px) scale(1)}
+	45%{transform:translate(580px,260px) scale(1)}
+
+	60%{transform:translate(580px,350px) scale(1)}
+	75%{transform:translate(580px,290px) scale(1)}
+
+	85%{transform:translate(580px,350px) scale(1)}
+	95%{transform:translate(580px,330px) scale(1)}
+	100%{transform:translate(580px,350px) scale(1)}
+}
+.main2{
+	position:absolute;
+	color:white;
+	font-size:55px;
+	animation:anim2 3.9s forwards;
+	         
+}
+@keyframes anim2{
+	0%{transform:translate(750px,-100px)}
+	20%{transform:translate(610px,250px)}
+	30%{transform:translate(610px,350px) scale(1)}
+	45%{transform:translate(610px,260px) scale(1)}
+
+	60%{transform:translate(610px,350px) scale(1)}
+	75%{transform:translate(610px,290px) scale(1)}
+
+	85%{transform:translate(610px,350px) scale(1)}
+	95%{transform:translate(610px,330px) scale(1)}
+	100%{transform:translate(610px,350px) scale(1)}
+}
+.main3{
+	position:absolute;
+	color:white;
+	font-size:55px;
+	animation:anim3 3.3s forwards;
+	           
+}
+@keyframes anim3{
+	0%{transform:translate(400px,-100px)}
+	20%{transform:translate(640px,250px)}
+	30%{transform:translate(640px,350px) scale(1)}
+	45%{transform:translate(640px,260px) scale(1)}
+
+	60%{transform:translate(640px,350px) scale(1)}
+	75%{transform:translate(640px,290px) scale(1)}
+
+	85%{transform:translate(640px,350px) scale(1)}
+	95%{transform:translate(640px,330px) scale(1)}
+	100%{transform:translate(640px,350px) scale(1)}
+}
+.main4{
+	position:absolute;
+	color:white;
+	font-size:55px;
+	animation:anim4 3.5s forwards;
+	          
+}
+@keyframes anim4{
+	0%{transform:translate(50px,-100px)}
+	20%{transform:translate(670px,250px)}
+	30%{transform:translate(670px,350px) scale(1)}
+	45%{transform:translate(670px,260px) scale(1)}
+
+	60%{transform:translate(670px,350px) scale(1)}
+	75%{transform:translate(670px,290px) scale(1)}
+
+	85%{transform:translate(670px,350px) scale(1)}
+	95%{transform:translate(670px,330px) scale(1)}
+	100%{transform:translate(670px,350px) scale(1)}
+}
+.main5{
+	position:absolute;
+	color:white;
+	font-size:55px;
+	animation:anim5 4s forwards;
+	  
+}
+@keyframes anim5{
+	0%{transform:translate(-100px,300px)}
+	20%{transform:translate(700px,250px)}
+	30%{transform:translate(700px,350px) scale(1)}
+	45%{transform:translate(700px,260px) scale(1)}
+
+	60%{transform:translate(700px,350px) scale(1)}
+	75%{transform:translate(700px,290px) scale(1)}
+
+	85%{transform:translate(700px,350px) scale(1)}
+	95%{transform:translate(700px,330px) scale(1)}
+	100%{transform:translate(700px,350px) scale(1)}
+}
+/*@keyframes bounce{
+	position:absolute;
+	0%{color:red;transform:scale(1)}
+    35%{color:white;transform:scale(1.2)}
+	70%{color:green;transform:scale(0.8)}
+	100%{color:black;transform:scale(1)}
+}*/
+.test{
+	color:lime;
+	font-size: 40px;
+	position:absolute;
+	animation:move 3s forwards;
+}
+@keyframes move{
+	from{transform:translate(350px,-200px) scale(2.5)}
+	to{transform:translate(350px,150px) scale(2.5)}
+}
+.hen{
+	position:absolute;
+	
+	animation:moved 8s forwards;
+
+}
+@keyframes moved{
+	0%{color:rgba(255,255,55,0);transform:translate(350px,190px)}
+	30%{color:rgba(255,255,255,0);transform:translate(350px,190px)}
+	60%{color:rgba(255,255,255,0);transform:translate(350px,190px)}
+	100%{color:white;transform:translate(350px,230px) scale(2.2)}
+}
